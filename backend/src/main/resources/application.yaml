@@ -1,0 +1,21 @@
+
+spring:
+  application:
+    name: bizflow-admin
+
+  datasource:
+    url: jdbc:postgresql://localhost:5433/bizflow
+    username: bizflow
+    password: ${DB_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+    show-sql: true
+
+  flyway:
+    enabled: true
+
+server:
+  port: 8080

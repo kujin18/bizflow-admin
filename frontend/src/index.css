@@ -1,0 +1,18 @@
+
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, Pretendard, system-ui, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #f8fafc;
+}
+
+button {
+  cursor: pointer;
+}
